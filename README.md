@@ -11,7 +11,7 @@ Caliper helps you manage all your automotive maintenance dates, prices, decripti
 ## Usage
 Run cmake and make in the terminal
 ```
-make && cmake
+cmake && make
 ```
 Then run the caliper executable
 ```
@@ -21,8 +21,8 @@ Then run the caliper executable
 Zach McKenna
 
 ## Licence
-### MIT License
-Copyright (c) *2019 Zach McKenna*
+#### MIT License
+Copyright (c) 2019 Zach McKenna
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
