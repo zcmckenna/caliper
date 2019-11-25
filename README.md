@@ -1,4 +1,4 @@
-![logo](logo.png)
+![logo](images/logo.png)
 # Caliper
 Caliper is the commandline tool to track and manage all your automotive maintenance history is one simple, easy to use app.
 
