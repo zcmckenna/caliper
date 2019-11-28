@@ -12,6 +12,7 @@
 #include <iostream> // For cin and cout
 #include <fstream> // For reading and writing to and from files
 #include <limits> // For INT_MAX
+#include "Vehicle.h"
 using namespace std;
 
 // Must have a function named "main", which is the starting point of a C++ program.
@@ -47,6 +48,10 @@ int main() {
             break;
         }
     }
-    cout << "Good to go..." << endl;
+    Vehicle myFirstVehicle("Lexus GX", "Lexus", "GX470", 2004, "Blizzard Pearl");
+
+    cout << myFirstVehicle.getName() << " | "<< myFirstVehicle.getMake() << " | " << myFirstVehicle.getModel() << " | " << myFirstVehicle.getYear() << " | " << myFirstVehicle.getColor() << endl;
 	return 0;
 }
+
+// TODO: Create system for saving vehicles to file and reopening them
