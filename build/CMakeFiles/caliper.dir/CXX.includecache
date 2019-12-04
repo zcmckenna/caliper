@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zcmckenna/Dev/caliper/src/Functions.h
+vector
+-
+MaintenanceRecord.h
+/home/zcmckenna/Dev/caliper/src/MaintenanceRecord.h
+
+/home/zcmckenna/Dev/caliper/src/MaintenanceRecord.h
+string
+-
+
+/home/zcmckenna/Dev/caliper/src/main.cpp
+iostream
+-
+fstream
+-
+limits
+-
+ctime
+-
+Functions.h
+/home/zcmckenna/Dev/caliper/src/Functions.h
+
