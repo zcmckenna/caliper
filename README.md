@@ -4,9 +4,8 @@ Caliper is the commandline tool to track and manage all your automotive maintena
 
 ## Decription
 Caliper helps you manage all your automotive maintenance dates, prices, decriptions, and mileage.
-- Keep track of all your vehicles and manage maintenance sperately
-- Output history to a .csv file for easy viewing
-- Sort maintenance by tags for easier viewing
+- Keep track of all your vehicles and manage maintenance records
+- Output history to a maint-records file for easy viewing
 
 ## Usage
 ### Linux:
