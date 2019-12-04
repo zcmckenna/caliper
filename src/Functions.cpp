@@ -113,7 +113,7 @@ string generateIndex( size_t length ) //Epic little function that generates a ra
         "0123456789"
         "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         "abcdefghijklmnopqrstuvwxyz"; // Array of possible values
-        const size_t max_index = (sizeof(charset) - 1);
+        const size_t max_index = (sizeof(CHARSET) - 1);
         return CHARSET[ rand() % max_index ]; // returns the random char or num
     };
     string str(length,0);
