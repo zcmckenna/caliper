@@ -9,7 +9,7 @@ Caliper helps you manage all your automotive maintenance dates, prices, decripti
 - Sort maintenance by tags for easier viewing
 
 ## Usage
-###Linux:
+### Linux:
 Navigate to the build directory
 ```
 cd caliper/build
@@ -22,7 +22,7 @@ Then run the caliper executable
 ```
 ./caliper
 ```
-###Windows:
+### Windows:
 Navigate to the build directory
 ```
 cd caliper/build
