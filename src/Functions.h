@@ -2,7 +2,11 @@
 #define FUNCTIONS_H
 
 #include <vector>
-#include "Vehicle.h"
+#include "MaintenanceRecord.h" // Includes
 
-std::vector<Vehicle> getVehiclesFromFile();
+std::vector<MaintenanceRecord> getRecordsFromFile();
+std::string generateIndex(size_t length);
+void printAllRecords();
+void overwriteRecords(std::vector<MaintenanceRecord> overwriteRecords);
+bool deleteRecord(std::string indexToDelete); // Definitions for the functions found in Functions.cpp
 #endif

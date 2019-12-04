@@ -3,11 +3,15 @@
 
 CMakeFiles/caliper.dir/src/Functions.cpp.o: ../src/Functions.cpp
 CMakeFiles/caliper.dir/src/Functions.cpp.o: ../src/Functions.h
-CMakeFiles/caliper.dir/src/Functions.cpp.o: ../src/Vehicle.h
+CMakeFiles/caliper.dir/src/Functions.cpp.o: ../src/MaintenanceRecord.h
+
+CMakeFiles/caliper.dir/src/MaintenanceRecord.cpp.o: ../src/MaintenanceRecord.cpp
+CMakeFiles/caliper.dir/src/MaintenanceRecord.cpp.o: ../src/MaintenanceRecord.h
 
 CMakeFiles/caliper.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp
 CMakeFiles/caliper.dir/src/Vehicle.cpp.o: ../src/Vehicle.h
 
-CMakeFiles/caliper.dir/src/main.cpp.o: ../src/Vehicle.h
+CMakeFiles/caliper.dir/src/main.cpp.o: ../src/Functions.h
+CMakeFiles/caliper.dir/src/main.cpp.o: ../src/MaintenanceRecord.h
 CMakeFiles/caliper.dir/src/main.cpp.o: ../src/main.cpp
 

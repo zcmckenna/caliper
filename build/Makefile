@@ -150,6 +150,33 @@ src/Functions.cpp.s:
 	$(MAKE) -f CMakeFiles/caliper.dir/build.make CMakeFiles/caliper.dir/src/Functions.cpp.s
 .PHONY : src/Functions.cpp.s
 
+src/MaintenanceRecord.o: src/MaintenanceRecord.cpp.o
+
+.PHONY : src/MaintenanceRecord.o
+
+# target to build an object file
+src/MaintenanceRecord.cpp.o:
+	$(MAKE) -f CMakeFiles/caliper.dir/build.make CMakeFiles/caliper.dir/src/MaintenanceRecord.cpp.o
+.PHONY : src/MaintenanceRecord.cpp.o
+
+src/MaintenanceRecord.i: src/MaintenanceRecord.cpp.i
+
+.PHONY : src/MaintenanceRecord.i
+
+# target to preprocess a source file
+src/MaintenanceRecord.cpp.i:
+	$(MAKE) -f CMakeFiles/caliper.dir/build.make CMakeFiles/caliper.dir/src/MaintenanceRecord.cpp.i
+.PHONY : src/MaintenanceRecord.cpp.i
+
+src/MaintenanceRecord.s: src/MaintenanceRecord.cpp.s
+
+.PHONY : src/MaintenanceRecord.s
+
+# target to generate assembly for a file
+src/MaintenanceRecord.cpp.s:
+	$(MAKE) -f CMakeFiles/caliper.dir/build.make CMakeFiles/caliper.dir/src/MaintenanceRecord.cpp.s
+.PHONY : src/MaintenanceRecord.cpp.s
+
 src/Vehicle.o: src/Vehicle.cpp.o
 
 .PHONY : src/Vehicle.o
@@ -216,6 +243,9 @@ help:
 	@echo "... src/Functions.o"
 	@echo "... src/Functions.i"
 	@echo "... src/Functions.s"
+	@echo "... src/MaintenanceRecord.o"
+	@echo "... src/MaintenanceRecord.i"
+	@echo "... src/MaintenanceRecord.s"
 	@echo "... src/Vehicle.o"
 	@echo "... src/Vehicle.i"
 	@echo "... src/Vehicle.s"

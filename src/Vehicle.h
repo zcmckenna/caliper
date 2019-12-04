@@ -1,5 +1,5 @@
 #ifndef VEHICLE_H
-#define ROCK_H
+#define VEHICLE_H
 
 #include <string>
 
