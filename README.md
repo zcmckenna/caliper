@@ -9,14 +9,26 @@ Caliper helps you manage all your automotive maintenance dates, prices, decripti
 - Sort maintenance by tags for easier viewing
 
 ## Usage
+###Linux:
+Navigate to the build directory
+```
+cd caliper/build
+```
 Run cmake and make in the terminal
 ```
-cmake && make
+cmake .. && make
 ```
 Then run the caliper executable
 ```
-./build/caliper
+./caliper
 ```
+###Windows:
+Navigate to the build directory
+```
+cd caliper/build
+```
+Run cmake from the build directory
+Run the executable from the build directory
 ## Author
 Zach McKenna
 

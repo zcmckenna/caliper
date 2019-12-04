@@ -1,3 +1,10 @@
+/*
+ * Caliper
+ *
+ * Author: Zach McKenna
+ *
+ */
+
 #include "MaintenanceRecord.h"
 #include <iostream>
 #include <fstream>

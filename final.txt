@@ -1,0 +1,13 @@
+Title: Zach McKenna; Section A; Caliper
+
+Problem Description: I created a program to keep track of your automotive maintenance history. You will be able to create, edit, and destroy maintenance items. For example, Caliper can help keep track of items like oil changes, tire rotations, and part replacements. The program will store data in a file called maint-records in the root of the file. This file can be opened by a text editor and is fully readable.
+
+Program Documentation: The executable is located in the caliper/build directory. To run on linux, just navigate to the build directory and run ./caliper. On windows, build with CMake and run the new executable from the build directory. (Make sure to run from the build directory, the location of certain files depends on this.) Some future feature would be a way of sorting the records by vehicle name, so the user could type a vehicle name and Caliper would pull up all those records. Another feature would be making the dates a little more uniform and allowing a date sort to be implemented.
+
+Tests:
+Main Menu: a, 5, -1, ab: The main menu handles these all fine, it is programmed to only allow integer inputs between 1 and 3.
+Records Menu: 12, bc, a b, -230: This menu is also designed to only allow integers and clearing the cin so that it works fine.
+Creating records: The strings are hard to mess up so those worked for all my test cases, couldn't figure out a way to make sure odometer and price were integer and doubles respectively since they used getlines, not cin.
+Deleting Records: it is a string so cant be messed up, it tells you if the index doesn't exist.
+
+Reflections: I very much enjoyed working on this project over the last few weeks. I learned a lot about how much it sucks to work with large amounts of data without a SQL database (maybe someday ill move Caliper to a SQL database). I learned how to store data in a file like a database would and how to create indexes so that it is easier to delete entries. I also learned a lot about classes and how to use them effectively without creating a lot of extraneous functions that don't fit well within the class definitions.

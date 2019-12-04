@@ -1,11 +1,7 @@
-/* Caliper
+/*
+ * Caliper
  *
- *
- *
- *
- *
- *
- *
+ * Author: Zach McKenna
  *
  */
 

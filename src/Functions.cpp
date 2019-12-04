@@ -1,3 +1,10 @@
+/*
+ * Caliper
+ *
+ * Author: Zach McKenna
+ *
+ */
+
 #include "Functions.h"
 #include <vector>
 #include <fstream>
