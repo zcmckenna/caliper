@@ -28,6 +28,7 @@ Navigate to the build directory
 cd caliper/build
 ```
 Run cmake from the build directory
+
 Run the executable from the build directory
 ## Author
 Zach McKenna
